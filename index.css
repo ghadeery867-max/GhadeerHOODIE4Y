@@ -237,3 +237,24 @@ margin-top: 30px;
     font-family: Arial, sans-serif;
     font-weight: 500;
 }
+@media (max-width: 768px) {
+    
+    .container {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;    
+        gap: 20px;             
+    }
+
+
+    .card {
+        width: 90%;             
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+    .card img {
+        height: 250px;          
+    }
+}
